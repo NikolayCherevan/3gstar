@@ -19,7 +19,7 @@ input {
   height: 15px;
   border-radius: 4px;
   border: none;
-  font-size: 8px;
+  font-size: 10px;
   padding: 5px;
   opacity: none;
 }
@@ -40,7 +40,7 @@ input {
   margin: 0;
   color: #ffffff;
 font-family: Montserrat;
-font-size: 10px;
+font-size: 11px;
 font-weight: 500;
 line-height: 21px;
 text-transform: uppercase;

@@ -105,15 +105,13 @@ section{
   content: '';
   background-image: url(../../images/ok.png);
   position: inherit;
-  width: 45px;
-  height: 49px;
-  opacity: 0.9;
+  opacity: 0.3;
+  background-repeat: no-repeat;
   z-index: -2;
-  top: 40%;
-  left: 50%;
+  top: 60%;
+  left: 60%;
   transform: translateY(50%);
   transform: translateX(-50%);
   right: 0;
   bottom: 0;
-
 }

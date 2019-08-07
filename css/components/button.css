@@ -18,5 +18,28 @@
 .uk-button.uk-button-default {
 
 border-radius: 4px;
-padding: 2px;
+padding: 4px;
+background-color: rgba(0, 170, 238, 0.2);
+}
+.by-it {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(70, 130, 180, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+.by-it:hover {
+  color: rgba(70, 130, 180, 1);
+  background-color: white;
+  cursor: pointer;
+}
+.section-title>img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
 }

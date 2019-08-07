@@ -1,22 +1,50 @@
-.card {
-  padding: 10px;
-}
-.card .card-header {
-  
-}
-.card .card-body {
-  
-}
+
 .card .card-image > img {
   display: block;
 }
-.card .card-title {
-  
+.uk-card>* {
+  text-align: center;
 }
-.card .card-description {
-  
+.uk-card {
+  padding: 10px;
 }
-
-.card-portfolio .card-title {
-  
+ .uk-card>.uk-card-title {
+   padding: 5px 0px;
+  color: white;
+  background-color: rgba(70, 130, 180, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 0;
+}
+.card-icon>img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.card-undertitle {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.card-list>li {
+  margin-top: 15px;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 5px;
+}
+.card-list>li:last-child {
+  border: none;
+}
+.card-decoration {
+  font-style: oblique;
+  font-weight: bold;
+}
+.cost {
+  font-weight: bolder;
+  color: #E0FFFF;
+  background-color: rgba(0, 170, 238, 0.4);
 }
