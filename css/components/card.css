@@ -48,3 +48,11 @@
   color: #E0FFFF;
   background-color: rgba(0, 170, 238, 0.4);
 }
+.title-main {
+      background: rgba(0, 170, 238, 0.5);
+      border-radius: 4px;
+      text-align: center;
+      font-weight: bolder;
+      color: white;
+      padding:10px 0;
+}
