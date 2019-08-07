@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+img {
+  width: 100%;
+  height:auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+a, .link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  color: #0f5f5c;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+  margin:0.67em 0 0 0;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 15px 0;
+}
+
+* + p, * + ul, * + ol, * + figure{
+  margin-top: 15px;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.numbers-list {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+}
+.header {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 25px;
+}
+.logo:hover {
+  opacity: 0.6;
+}
+.uk-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+.main-numbers>li>a {
+  font-size: 10px;
+  color: #ffffff;
+font-family: Montserrat;
+font-size: 9px;
+}
+.main-numbers>li>a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+
+}
+.social-icons>li {
+  margin: 0 5px;
+}
+.social-icons>li:hover {
+  opacity: 0.4;
+}

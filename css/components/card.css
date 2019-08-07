@@ -1,0 +1,22 @@
+.card {
+  padding: 10px;
+}
+.card .card-header {
+  
+}
+.card .card-body {
+  
+}
+.card .card-image > img {
+  display: block;
+}
+.card .card-title {
+  
+}
+.card .card-description {
+  
+}
+
+.card-portfolio .card-title {
+  
+}

@@ -1,0 +1,18 @@
+.white-line {
+  background-color: white;
+  height: 1px;
+  width: 15px;
+  margin: 0;
+  margin: 2px 0px;
+}
+.uk-offcanvas-bar {
+  background-color: rgba(0, 170, 238, 0.9);
+  width: 150px;
+}
+.navbar-items>li>a {
+  border-bottom: solid 1px white;
+  display: block;
+  margin-top:20px;
+  font-size: 10px;
+
+}
