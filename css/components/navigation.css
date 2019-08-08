@@ -8,6 +8,7 @@
 .uk-offcanvas-bar {
   background-color: rgba(0, 170, 238, 0.9);
   width: 150px;
+  position: relative;
 
 }
 .navbar-items>li>a {
@@ -24,9 +25,7 @@
   .navbar-items>li>a {
     font-size: 20px;
   }
-  button.uk-button{
-    padding: 15px;
-  }
+
   .burger{
     padding: 20px;
   }
@@ -34,5 +33,5 @@
     height: 4px;
     width: 30px;
   }
-  
+
 }

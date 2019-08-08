@@ -18,7 +18,7 @@ section{
   padding: 10px 0;
   margin: 5px 0px;
   border-radius: 4px;
-  background-color: rgba(0, 170, 238, 0.4);
+  background: rgba(0, 170, 238, 0.5);
 
 }
 .col-content {
@@ -32,7 +32,7 @@ section{
   height: 70px;
   text-transform: none;
   color: white;
-  background-color: rgba(70, 130, 180, 1);
+  background: rgba(0, 170, 238, 0.5);
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
@@ -50,9 +50,9 @@ section{
   padding: 5px 0;
   text-align: center;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
-  background-color: rgba(0, 170, 238, 0.4);
+  background: rgba(0, 170, 238, 0.5);
 }
 .section-content {
   text-align: center;
@@ -161,7 +161,7 @@ ul.uk-comment-meta.uk-subnav.uk-subnav-divider>li>a {
   font-weight: bolder;
 }
 .footer-row {
-  background-color: rgba(0, 170, 238, 0.4);
+  background: linear-gradient(to right, #373b44, #4286f4);
 }
 div.footer-row-rw {
   display: flex;
@@ -193,10 +193,12 @@ background-color: rgba(70, 130, 180, 1);
   left: 50%;
   width: 100%;
   transform: translateX(-50%);
-  background-color: rgba(0, 170, 238, 0.4);
+  padding: 0 20px;
+  background: linear-gradient(to right, #373b44, #4286f4);
   animation-name: showheader;
   animation-duration: 1s;
   z-index: 9999;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
 }
   @keyframes showheader {
     0% {
@@ -215,10 +217,14 @@ background-color: rgba(70, 130, 180, 1);
     .title-icon {
       font-size: 35px;
     }
-    .uk-button {
+    .uk-button.uk-button-default {
       font-size: 20px;
       line-height: 25px;
+      padding: 0 100px;
     }
+    button.uk-button.uk-button-default.burger-but{
+        padding: 10px;
+      }
     .section-subtitle {
       font-size: 20px;
     }
