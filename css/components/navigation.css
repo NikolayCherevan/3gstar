@@ -9,14 +9,12 @@
   background-color: rgba(0, 170, 238, 0.9);
   width: 150px;
   position: relative;
-
 }
 .navbar-items>li>a {
   border-bottom: solid 1px white;
   display: block;
   margin-top:20px;
   font-size: 12px;
-
 }
 @media only screen  and (min-width: 600px) {
   .uk-offcanvas-bar {
@@ -25,7 +23,6 @@
   .navbar-items>li>a {
     font-size: 20px;
   }
-
   .burger{
     padding: 20px;
   }
@@ -33,5 +30,4 @@
     height: 4px;
     width: 30px;
   }
-
 }
