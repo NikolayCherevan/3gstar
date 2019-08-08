@@ -26,7 +26,7 @@ margin-top: 20px;
 .hero-title {
   color: #ffffff;
 font-family: Montserrat;
-font-size: 15px;
+font-size: 12px;
 font-weight: 700;
 line-height: 21px;
 text-transform: uppercase;
@@ -55,6 +55,11 @@ border-bottom: solid 1px white;
   color:white;
   text-align: center;
 }
-.hero-right {
-
+@media only screen  and (min-width: 600px) {
+.hero-title {
+  font-size: 20px;
+}
+.positive>li {
+  font-size: 20px;
+}
 }

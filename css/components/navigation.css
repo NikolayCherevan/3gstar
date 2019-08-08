@@ -8,11 +8,31 @@
 .uk-offcanvas-bar {
   background-color: rgba(0, 170, 238, 0.9);
   width: 150px;
+
 }
 .navbar-items>li>a {
   border-bottom: solid 1px white;
   display: block;
   margin-top:20px;
-  font-size: 10px;
+  font-size: 12px;
 
+}
+@media only screen  and (min-width: 600px) {
+  .uk-offcanvas-bar {
+    width: 400px;
+  }
+  .navbar-items>li>a {
+    font-size: 20px;
+  }
+  button.uk-button{
+    padding: 15px;
+  }
+  .burger{
+    padding: 20px;
+  }
+  .white-line {
+    height: 4px;
+    width: 30px;
+  }
+  
 }

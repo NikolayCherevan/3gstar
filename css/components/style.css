@@ -28,7 +28,6 @@
   content: "\e900";
 }
 .icon-pig:before {
-  font-size: 25px;
   content: "\e902";
 }
 .icon-people_outline:before {
@@ -38,7 +37,6 @@
   content: "\e904";
 }
 .icon-perm_identity:before {
-  font-size: 25px;
   content: "\e904";
 }
 .icon-briefcase:before {
@@ -53,13 +51,12 @@
 .icon-telegram2:before {
   content: "\e907";
   color: #2ca5e0;
-  font-size: 20px;
+
 
 }
 .icon-viber:before {
   content: "\e908";
   color: white;
-  font-size: 20px;
 }
 .icon-gift:before {
   content: "\e99f";
@@ -70,5 +67,5 @@
 .icon-telegram:before {
   content: "\ea95";
   color: white;
-  font-size: 20px;
+
 }

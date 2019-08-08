@@ -82,7 +82,7 @@ section{
 
 }
 .profit-items>li{
-  font-size: 10px;
+  font-size: 10.5px;
   padding: 10px;
   display: block;
   font-weight: bolder;
@@ -94,6 +94,7 @@ section{
 .uk-position-center-right {
   display: none;
 }
+
 .underline {
   text-decoration: underline;
   font-weight: bolder;
@@ -186,3 +187,74 @@ div.footer-row-rw {
   font-size: 10px;
 background-color: rgba(70, 130, 180, 1);
 }
+.fixed{
+  position: fixed;
+  top:0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 170, 238, 0.4);
+  animation-name: showheader;
+  animation-duration: 1s;
+  z-index: 9999;
+}
+  @keyframes showheader {
+    0% {
+      opacity: 0;
+      top:-70px;
+    }
+    100% {
+      opacity: 1;
+      top:0;
+    }
+  }
+  @media only screen  and (min-width: 600px) {
+    .section-title {
+      font-size: 20px;
+    }
+    .title-icon {
+      font-size: 35px;
+    }
+    .uk-button {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .section-subtitle {
+      font-size: 20px;
+    }
+    .article-description {
+      font-size: 15px;
+    }
+    .section-content {
+      font-size: 20px;
+    }
+    .card-head {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .uk-position-center-left {
+      display: block;
+    }
+    .uk-position-center-right {
+      display: block;
+    }
+    .uk-active {
+      font-size: 25px;
+    }
+    .profit-items>li {
+      margin-top: 30px;
+      font-size: 25px;
+    }
+    .profit-items>li::after {
+      background-size: contain;
+    }
+    .title-main {
+      font-size: 20px;
+    }
+    .icon-perm_identity {
+      font-size: 40px;
+    }
+    .footer-title {
+      font-size: 20px;
+    }
+  }
